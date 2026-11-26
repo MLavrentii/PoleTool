@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Autoload bundle: %APPDATA%\Autodesk\ApplicationPlugins\PoleTool.bundle\ (install.bat does this) -->
+<ApplicationPackage SchemaVersion="1.0" AppVersion="0.1.0" Name="Pole Tool"
+    Description="Electrical pole (装柱図) builder with equipment, cables, labels and BOM" Author="Pole Tool"
+    ProductCode="{8E2D4A61-3B7C-4F19-9D52-6A0B1C7E3F48}" UpgradeCode="{2C9F7B13-5E84-4A6D-B1F0-7D3E9A42C658}">
+  <Components>
+    <RuntimeRequirements OS="Win64" Platform="AutoCAD*" SeriesMin="R25.0" />
+    <ComponentEntry AppName="PoleTool" ModuleName="./Contents/PoleTool.dll" LoadOnAutoCADStartup="True">
+      <Commands GroupName="PTOOL">
+        <Command Local="POLETOOL" Global="POLETOOL" />
+        <Command Local="POLEEDIT" Global="POLEEDIT" />
+      </Commands>
+    </ComponentEntry>
+  </Components>
+</ApplicationPackage>

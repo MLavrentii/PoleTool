@@ -1,0 +1,12 @@
+C:\Users\ミンジアシビッリ　ラブレンチー\Desktop\My lisp\AI_Created_AutocadScripts\PoleTool\obj\Release\net10.0-windows\PoleTool.csproj.AssemblyReference.cache
+C:\Users\ミンジアシビッリ　ラブレンチー\Desktop\My lisp\AI_Created_AutocadScripts\PoleTool\obj\Release\net10.0-windows\PoleTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ミンジアシビッリ　ラブレンチー\Desktop\My lisp\AI_Created_AutocadScripts\PoleTool\obj\Release\net10.0-windows\PoleTool.AssemblyInfoInputs.cache
+C:\Users\ミンジアシビッリ　ラブレンチー\Desktop\My lisp\AI_Created_AutocadScripts\PoleTool\obj\Release\net10.0-windows\PoleTool.AssemblyInfo.cs
+C:\Users\ミンジアシビッリ　ラブレンチー\Desktop\My lisp\AI_Created_AutocadScripts\PoleTool\obj\Release\net10.0-windows\PoleTool.csproj.CoreCompileInputs.cache
+C:\Users\ミンジアシビッリ　ラブレンチー\Desktop\My lisp\AI_Created_AutocadScripts\PoleTool\bin\Release\net10.0-windows\PoleTool.deps.json
+C:\Users\ミンジアシビッリ　ラブレンチー\Desktop\My lisp\AI_Created_AutocadScripts\PoleTool\bin\Release\net10.0-windows\PoleTool.dll
+C:\Users\ミンジアシビッリ　ラブレンチー\Desktop\My lisp\AI_Created_AutocadScripts\PoleTool\bin\Release\net10.0-windows\PoleTool.pdb
+C:\Users\ミンジアシビッリ　ラブレンチー\Desktop\My lisp\AI_Created_AutocadScripts\PoleTool\obj\Release\net10.0-windows\PoleTool.dll
+C:\Users\ミンジアシビッリ　ラブレンチー\Desktop\My lisp\AI_Created_AutocadScripts\PoleTool\obj\Release\net10.0-windows\refint\PoleTool.dll
+C:\Users\ミンジアシビッリ　ラブレンチー\Desktop\My lisp\AI_Created_AutocadScripts\PoleTool\obj\Release\net10.0-windows\PoleTool.pdb
+C:\Users\ミンジアシビッリ　ラブレンチー\Desktop\My lisp\AI_Created_AutocadScripts\PoleTool\obj\Release\net10.0-windows\ref\PoleTool.dll

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!-- Core regression tests (no AutoCAD or WPF needed): dotnet run, project tests/CoreTests.csproj -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>PoleToolTests</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="../Core/**/*.cs" />
+  </ItemGroup>
+</Project>

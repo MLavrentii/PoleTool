@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <!--
+    Pole Tool for AutoCAD 2027 (.NET 10).
+    Build:  build.bat            (or: dotnet build -c Release -p:AcadDir="D:\Autodesk\AutoCAD 2027")
+    Load in AutoCAD with NETLOAD, then POLETOOL - or run install.bat for autoload.
+  -->
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>disable</Nullable>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>PoleTool</AssemblyName>
+    <RootNamespace>PoleToolApp</RootNamespace>
+    <PlatformTarget>x64</PlatformTarget>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <MSBuildWarningsAsMessages>$(MSBuildWarningsAsMessages);MSB3277</MSBuildWarningsAsMessages>
+    <Version>0.1.0</Version>
+    <AcadDir Condition="'$(AcadDir)' == ''">C:\Program Files\Autodesk\AutoCAD 2027</AcadDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="tests/**/*.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="accoremgd"><HintPath>$(AcadDir)\accoremgd.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="acdbmgd"><HintPath>$(AcadDir)\acdbmgd.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="acmgd"><HintPath>$(AcadDir)\acmgd.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="AcWindows"><HintPath>$(AcadDir)\AcWindows.dll</HintPath><Private>false</Private></Reference>
+    <Reference Include="AdWindows"><HintPath>$(AcadDir)\AdWindows.dll</HintPath><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>
